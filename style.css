@@ -6,12 +6,12 @@ ol{
     margin: 0 auto;
     width: 250px;
     flex-direction: column;
-    height: 100px;
+    height: 250px;
     overflow-y: auto;
 }
 li {
     color: rgb(0, 238, 255);
-    background-color: blue;
+    background-color: black;
     text-align: left;
     list-style-position: inside;
 }
