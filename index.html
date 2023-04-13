@@ -3,50 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Welcome to The Darkside</title>
-        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Список дел</h1>
-        <form class="form1">
-            <input id="input1" type="text" placeholder="Новый элемент списка"/>
-            <button>Создать</button>
-        </form>
-        <ol>
-            <li class="zebra1">
-                <input type="checkbox">
-                Почесать кошку
-                &#10060;
-            </li>
-            <li>
-                <input type="checkbox">
-                Полить картошку
-                &#10060;
-            </li>
-            <li class="zebra1">
-                <input type="checkbox">
-                Сложить в лукошко
-                &#10060;
-            </li>
-            <li>
-                <input type="checkbox">
-                Сложить в лукошко
-                &#10060;
-            </li>
-            <li class="zebra1">
-                <input type="checkbox">
-                Сложить в лукошко
-                &#10060;
-            </li>
-            <li>
-                <input type="checkbox">
-                Сложить в лукошко
-                &#10060;
-            </li>
-            <li class="zebra1">
-                <input type="checkbox">
-                Сложить в лукошко
-                &#10060;
-            </li>
-        </ol>
+        <div class="todo">
+            <h1>Список дел</h1>
+            <div class="todo_input">
+                <input class="input1" type="text" placeholder="Новый элемент списка"/>
+                <button class="todo_add">Создать</button>
+            </div>
+            <ol class="todo_items"></ol>
+        </div>
     </body>
+    <script src="JS/New.js"></script>
 </html>
